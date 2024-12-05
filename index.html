@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>portafolio jhonny</title>
+</head>
+<body>
+    <header class="header header__mobile">
+        <div class="header__buttons container">
+         <div class="logo__container-container">
+         <a href="#hero">
+            <img class="logo__svg logo__svg--mobile" src="./recursos/logojhonny.svg" alt=""></a>
+
+            <label class="nav__toggle">
+                <input type="checkbox" id="menu-input" class="nav__input">
+                <!-- <a  href="#" class="button__menu button__menu-icon" >
+                    <img src="./recursos/svg/menunegro.svg" alt="">
+                </a> -->
+            </label>
+            <div>
+                <ul class="nav__list " >
+                    <li class="nav__item" >
+                        <a href="#hero" class="nav__link" >HOME</a>
+                    </li>
+                    <li class="nav__item" >
+                        <a href="#one" class="nav__link" >PROYECTOS</a>
+                    </li>
+                    <li class="nav__item" >
+                        <a href="#two" class="nav__link" >APPS</a>
+                    </li>
+                    <li class="nav__item" >
+                        <a href="#tree" class="nav__link" >SOBRE MI</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+       
+         </div>
+
+        <nav class="header__rigth">
+            <a href="#one" class="button__header">PROYECTOS</a>
+            <a href="#two" class="button__header">APPS</a>
+            <a href="#tree" class="button__header">SOBRE MI</a>
+
+            
+        </nav>
+        </div>
+    </header>
+
+
+    <main class="sections">
+        <section id="hero" class="hero hero--mobile">
+            <div class="hero__container hero__container--mobile ">
+                <div class="hero__content">
+                    <img class="hero__jhonny-img hero__jhonny-img--mobile" src="./recursos/jhonnyhero.jpeg" alt="autor imagen">
+                </div>
+            </div>
+
+
+           <div class="hero__text hero__text--mobile">
+             <h2 class="hero__titulo hero__titulo--mobile">¡Hola, soy Jhonny Márquez!</h2>
+             <p class="hero__parrafo hero__parrafo--mobile">¡Diseñador gráfico, dando forma a tus ideas!</p>
+             <a  href="./download/CV-jhonny.pdf" download="CV-jhonny>Download CV" class="button__download button__download--primary">Download CV</a>
+           </div>
+        </section>
+
+
+        <div id="one" class="section__one section__one--mobile">
+            <div class="carrusell carrusell__mobile">
+                <div class="img__proyect">
+                    <img class="img__name" src="./recursos/JHONNY-NAME.jpg" alt="">
+                </div>
+                <div class="img__proyect">
+                    <img class="img__repre" src="./recursos/jhonny-representacion.jpg" alt="">
+                </div>
+                <div class="img__proyect">
+                    <img class="img__ferremarquez" src="./recursos/ferremarquez.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="two" class="section__two section__two--mobile">
+            <div class="section__two-container section__two-container--mobile">
+                <div class="icons__apps">
+                    <img class="img__twin" src="./recursos/svg/Twinmotionnegro.svg" alt="">
+                    
+                </div>
+                <div class="icons__apps">
+                    <img class="img__autocad" src="./recursos/svg/AutoCad_new_logo_negro.svg" alt="">
+                </div>
+                <div class="icons__apps">
+                    <img  class="img__ai" src="./recursos/svg/illustrator_5968522.png" alt="">
+                </div>
+                <div class="icons__apps">
+                    <img class="img__figma" src="./recursos/svg/figma_5968719.png" alt="">
+                </div>
+                <div class="icons__apps">
+                    <img class="img__id" src="./recursos/svg/indesign_6422700.svg" alt="">
+                </div>
+                <div class="icons__apps">
+                    <img class="img__ae" src="./recursos/svg/after-effects_11227453.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <section id="tree" class="section__tree section__tree--mobile" >
+            <div class="section__tree-text section__tree-text--mobile">
+                <h2 class="section__tree-titulo section__tree-titulo--mobile" >¿Quién 
+                    soy yo?</h2>
+                <p class="section__tree-parrafo section__tree-parrafo--mobile" >Soy Jhonny Márquez, estudiante de Diseño Gráfico en la Universidad Autónoma del Caribe. Me enfoco en transformar ideas en creaciones visuales únicas, siempre buscando nuevas formas de expresarme y mejorar mis habilidades.</p>
+            </div>
+             
+            <div class="section__tree-img section__tree-img--mobile" >
+                <img class="jhonny__img-tree" src="./recursos/jhonnysecond.jpeg" alt="">
+            </div>
+     
+        </section>
+
+
+        <section class="section__four">
+
+          
+
+            <div class="contact-form-container">
+                <h2 class="contact-form-title">Contacto</h2>
+                <form class="contact-form" action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+                    <input class="form-input" type="text" name="nombre" placeholder="Nombre" required>
+                    <input class="form-input" type="email" name="email" placeholder="Correo Electrónico" required>
+                    <input class="form-input" type="text" name="asunto" placeholder="Asunto" required>
+                    <textarea class="form-textarea" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <button class="form-button" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer" >
+        <div class="footer__container">
+            <div class="footer__content">
+                <samp class="footer__text footer__text--mobile">Diseñador grafico</samp>
+            </div>
+
+            <div class="footer__icons">
+                <img class="icon__beh" src="./recursos/svg/behance-negro.svg" alt="">
+                <img class="icon__ing" src="./recursos/svg/Instagram_simple_icon.svg" alt="">
+                <img class="icon__git" src="./recursos/svg/github-svgrepo-com.svg" alt="">
+            </div>
+
+            
+        </div>
+    </footer>
+</body>
+</html>
